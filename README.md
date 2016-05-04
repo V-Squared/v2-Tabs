@@ -8,6 +8,7 @@ Angular Tabs generated within ng-repeat from JSON that can be selected and scrol
 - [Distribution of v2-Tab](#disti)
 - [How to make it work](#how-to)
 - [User Story of v2-Tabs making long content fun](#user-story)
+- [gh-pages is Code Base and Demo](#gh-pages)
 - [Target of Pull Request to UI Bootstrap](#pull-request)
 - [Reference](#reference)
 
@@ -33,7 +34,7 @@ The user can browser to a specific content within a specific tab. He then can sh
 In our second demo we contruct the tab bar and the tab content from data contained in a single JSON file. This approach allows to separate data from code, which makes it easier to maintain the data of the web site.
 
 
-# v2-Tooltip Demo <a name="demo"></a>
+# v2-Tab Demo <a name="demo"></a>
 ## Simple Demo <a name="simple-demo"></a>
 → ??? link 
 ### Feature: Deep Link Generation on Tab click
@@ -53,6 +54,54 @@ In our second demo we contruct the tab bar and the tab content from data contain
 It works the same as the [Simple Demo](#simple-demo). The difference is in the source code. The html of this demo page is assembled with ng-repat that reads its data from the JSON file: tabs.json. 
 
 
+# Distribution of v2-Tab <a name="disti"></a>
+## Angular Code
+v2-Tab is an [Angular](https://angularjs.org/) Directive. 
+
+## CSS Code
+Contains all styling of the Tab
+
+## JSON Code
+Contains the content of the *Tabs* for the second demo. Note: First demo does not use JSON nor ng-repeat.
+
+
+
+
+
+# How to make it work <a name="how-to"></a>
+At a later point we will create gh-pages site with short code examples and working demos and a tutorial. But until then please refer to the [working demo](http://v-squared.github.io/#delivering-puzzle). This is the link to its GitHub Repository → https://github.com/V-Squared/V-Squared.github.io. All code is contained in the index.html file.
+
+
+
+## Dependencies ??? LC: rewrite!!!
+All scripts you need to load to make the Code Examples work:
+
+### Angular
+ ```XML
+<script src="your/path/to/file/angular.min.js"></script>
+```
+
+### ngAnimate (if animation)
+
+```XML
+<script src="your/path/to/file/angular-animate.min.js"></script>
+```
+
+### v2Tooltip
+
+```XML
+<script src="your/path/to/file/v2Tooltip.js"></script>
+```
+
+
+
+
+
+
+
+
+# gh-pages is Code Base and Demo <a name="gh-pages"></a>
+This is a new project and we enjoy the simplification of only one Branch. If you are using this code in your project, please "star" this repository and we will split it into the branches gh-pages, master and development, so that you will always have working code in the master branch.
 
 
 # Target of Pull Request to UI Bootstrap <a name="pull-request"></a>
