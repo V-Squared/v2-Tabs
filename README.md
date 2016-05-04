@@ -19,7 +19,7 @@ Angular Tabs generated within ng-repeat from JSON that can be selected and scrol
 - **Angular Directive:** Reusable and easy to use
 - **Angular Tabs:** Same functions as and our code is based on → [UI Bootstrap►Tabs](https://angular-ui.github.io/bootstrap/#/tabs)
 - **Added Angular Tabs Features:**
-   - **Deep Link:** Each tab with the tab bar has a unique ID which can be used via hashtag in the URL to scroll to tab bar and select that tab
+   - **Deep Link:** Each tab with the tab bar has a unique ID which can be used via hashtag in the URL to scroll to tab bar and select that tab. 
    - **More than one tab bar per page:** Several tab bars can be independantly addressed on the same page
    - **Compatible with ng-repeat:** The tabs are constructed by reading their data from one JSON file via ng-repeat.
 - **No AJAX:** This makes navigation between tabs fast
@@ -40,6 +40,8 @@ In our second demo we contruct the tab bar and the tab content from data contain
 ### Feature: Deep Link Generation on Tab click
 1. click on a tab to select a different tab and reveal its different content
 2. the tab ID is updaterd in the URL bar of the browser
+3. Link to tab on same page
+4. Link to tab on different page
 
 ### Feature: Scroll and select Tab via deep Link
 1. Select a tab of your choosing
