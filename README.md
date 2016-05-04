@@ -35,7 +35,7 @@ In our second demo we contruct the tab bar and the tab content from data contain
 
 
 # v2-Tab Demo <a name="demo"></a>
-## Simple Demo <a name="simple-demo"></a>
+## Static HTML Demo <a name="static-demo"></a>
 → ??? link 
 ### Feature: Deep Link Generation on Tab click
 1. click on a tab to select a different tab and reveal its different content
@@ -47,11 +47,14 @@ In our second demo we contruct the tab bar and the tab content from data contain
 3. Open new browser tab, pastr that URL and load the page
 4. The page will load, then scroll to that tab bar and select the identical tab
 
-## ng-repeat Demo  <a name="ng-demo"></a>
+## Dynamic HTML Demo  <a name="dynamic-demo"></a>
 → ??? link 
 
 ### Feature
-It works the same as the [Simple Demo](#simple-demo). The difference is in the source code. The html of this demo page is assembled with ng-repat that reads its data from the JSON file: tabs.json. 
+It works the same as the [Static HTML Demo](#static-demo). The difference is in the source code. The html of this demo page is dynamically generated with ng-repat that reads its data from the JSON file: tabs.json. 
+
+### Dynamic HTML makes this demo harder
+ng-repeat dynamically creates the HTML for the DOM. This is adding the complexity of timing. If you are not familiar with debugging Dynamic HTML pages you may want to stick with the [Static HTML Demo](#static-demo).
 
 
 # Distribution of v2-Tab <a name="disti"></a>
