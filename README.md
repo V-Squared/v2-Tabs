@@ -117,8 +117,8 @@ This is a new project and we enjoy the simplification of only one Branch. If you
 - [UI Bootstrap](https://angular-ui.github.io/bootstrap/) Angular version of Bootstrap. Our v2-Tab code is based on their tab code. Once we made our code work, we will try to make a pull request to UI Bootstrap. 
 - [UI Bootstrap►tabs](https://angular-ui.github.io/bootstrap/#/tabs) The documentation of tabs of UI Bootstrap
 - https://angularjs.org/ Home Page of Angular
-
-
+- [stackoverflow►dynamically select jquery UI tabs based on hash ID from a text link inside tabs](http://stackoverflow.com/questions/12380314/dynamically-select-jquery-ui-tabs-based-on-hash-id-from-a-text-link-inside-tabs)
+- [odetocode►Deep Linking a Tabbed UI With AngularJS](http://odetocode.com/blogs/scott/archive/2014/04/14/deep-linking-a-tabbed-ui-with-angularjs.aspx)
 
 
 
